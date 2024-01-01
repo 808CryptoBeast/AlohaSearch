@@ -56,13 +56,14 @@ main {
   width: 300px;
 }
 
-#search-btn, #feeling-lucky {
+#search-btn{
   flex: 1;
   padding: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
+  margin-left: 85px
 }
 
 #search-btn {
