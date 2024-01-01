@@ -49,8 +49,8 @@ main {
 
 #advanced-search-btn {
   padding: 10px;
-  background-color: #4285f4; /* Blue */
-  color: #fff; /* White text */
+  background-color: #4285f4;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
