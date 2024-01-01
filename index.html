@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title>Google Search</title>
 </head>
 <body>
@@ -15,9 +15,13 @@
     </header>
     <main>
         <div id="search-container">
-            <input type="text" id="search-input" placeholder="Google Search">
-            <a href="#" id="feeling-lucky">I'm Feeling Lucky</a>
-            <button id="search-btn">Google Search</button>
+          <form action="https://www.google.com/search" method="GET">
+            <input type="text" name="q" id="search-input" placeholder="Aloha Search">
+            <br>
+            <button type="submit" id="search-btn">Google Search</button>
+            <a href="https://www.google.com/search?btnI=1" id="feeling-lucky">I'm Feeling Lucky</a>
+          </form> 
+          
         </div>
     </main>
 </body>

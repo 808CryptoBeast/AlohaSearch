@@ -25,6 +25,7 @@ nav {
 nav a {
   color: #fff;
   margin-left: 20px;
+  margin-right: 10px;
   text-decoration: none;
 }
 
@@ -33,48 +34,25 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
 }
 
 #search-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 250px;
+  margin-top: 150px;
 }
 
-#search-input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
+.advanced-search-option {
   margin-bottom: 10px;
-  width: 300px;
 }
 
-#buttons-container {
-  display: flex;
-  justify-content: space-between;
-  width: 200px;;
-}
-
-#search-btn, #feeling-lucky {
-  flex: 1;
+#advanced-search-btn {
   padding: 10px;
+  background-color: #4285f4; /* Blue */
+  color: #fff; /* White text */
   border: none;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
-}
-
-#search-btn {
-  background-color: #4285f4;
-  color: #fff;
-  margin-left: 30px;
-}
-
-#feeling-lucky {
-  text-decoration: none;
-  background-color: #0f9d58;
-  color: #fff;
-  margin-left: 5px;
 }

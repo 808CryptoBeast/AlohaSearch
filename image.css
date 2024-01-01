@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #4285f4;
+  background-color: #ad42f4;
   color: #fff;
   padding: 10px;
   width: 100%;
@@ -33,14 +33,13 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
 }
 
 #search-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 250px;
+  margin-top: 350px;
 }
 
 #search-input {
@@ -54,7 +53,7 @@ main {
 #buttons-container {
   display: flex;
   justify-content: space-between;
-  width: 200px;;
+  width: 300px;
 }
 
 #search-btn, #feeling-lucky {
@@ -69,11 +68,10 @@ main {
 #search-btn {
   background-color: #4285f4;
   color: #fff;
-  margin-left: 30px;
+  margin-right: 5px;
 }
 
 #feeling-lucky {
-  text-decoration: none;
   background-color: #0f9d58;
   color: #fff;
   margin-left: 5px;
